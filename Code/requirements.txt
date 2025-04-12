@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch                    # GPU version with CUDA 12.8
+transformers>=4.28.0
+accelerate>=0.26.0         # Required for Hugging Face Trainer
+datasets>=2.0.0
+tqdm>=4.64.0
+sentencepiece>=0.1.95
+scikit-learn>=1.0
+evaluate>=0.4.0
+spacy>=3.7.1
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz

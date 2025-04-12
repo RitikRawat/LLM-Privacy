@@ -29,7 +29,6 @@ def main(args):
         save_steps=500,
         save_total_limit=2,
         logging_steps=50,
-        eval_strategy="no",
         report_to="none"
     )
 
