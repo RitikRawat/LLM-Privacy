@@ -2,6 +2,8 @@
 torch                    # GPU version with CUDA 12.8
 transformers>=4.28.0
 accelerate>=0.26.0         # Required for Hugging Face Trainer
-pycryptodome>=3.17
 datasets>=2.0.0
 tqdm>=4.64.0
+sentencepiece>=0.1.95
+scikit-learn>=1.0
+evaluate>=0.4.0
