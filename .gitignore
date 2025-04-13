@@ -2,3 +2,4 @@ virtualenv/
 models/
 cached_lm_*
 models.zip
+venv/
