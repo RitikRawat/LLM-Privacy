@@ -102,6 +102,9 @@ def evaluate_sample(prompt, reference):
     print("\n")
     print(f"CD Output: {output_cd}")
     print("\n")
+    output_cd_redacted = redact(output_cd)
+    print(f"Redacted CD Output: {output_cd_redacted}")
+    print("\n")
     print(f"PBD Output: {output_pbd}")
     print("\n")
     return {
